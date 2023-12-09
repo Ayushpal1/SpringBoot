@@ -37,7 +37,7 @@ public class Main {
 			threads[i].setName("My Thread " + i);
 		}
 
-		try (FileWriter file = new FileWriter("\\log.txt"); PrintWriter pw = new PrintWriter(file);) {
+		try (FileWriter file = new FileWriter("log.txt"); PrintWriter pw = new PrintWriter(file);) {
 			for (int i = 0; i < 10; i++) {
 				pw.println("Main : Status of Thread " + i + " : " + threads[i].getState());
 				status[i] = threads[i].getState();
