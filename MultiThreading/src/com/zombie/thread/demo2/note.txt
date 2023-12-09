@@ -1,0 +1,6 @@
+Understood how a thread is interrupted and other interruption methods. i.e.
+interrupted() and isInterrupted().
+interrupted() sets the attribute value to false. meanwhile,
+isInterrupted() checks the value. i.e. fetches the value.
+
+interrupt() is the method to interrupt the thread.
